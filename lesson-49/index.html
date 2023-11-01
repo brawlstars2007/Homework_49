@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инпуты</title>
+</head>
+
+<body>
+    <!-- <form>
+        <label>
+            Текст
+            <input type="text">
+        </label>
+        <br>
+        <br>
+        <label>
+            Число
+            <input type="number" step="3">
+        </label>
+        <br>
+        <br>
+        <label>
+            Пароль
+            <input type="password">
+        </label>
+        <br>
+        <br>
+        <label>
+            Телефон
+            <input type="tel">
+        </label>
+        <br>
+        <br>
+        <label>
+            Почта
+            <input type="email" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox">
+            Чекбокс
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox">
+            Чекбокс
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox">
+            Чекбокс
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="radio1">
+            Вариант 1
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="radio1">
+            Вариант 2
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="radio1">
+            Вариант 3
+        </label>
+        <br>
+        <br>
+        <label>
+            Поиск
+            <input type="search">
+        </label>
+        <br>
+        <br>
+        <label>
+            Дата
+            <input type="date">
+        </label>
+        <br>
+        <br>
+        <label>
+            Файл
+            <input type="file">
+        </label>
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form> -->
+
+</body>
+<!-- Снизу это улучшенная форма из прошлого ДЗ -->
+<h1>Форма обратной связи</h1>
+<p>Заполните пункты ниже:</p>
+<form>
+    <fieldset>
+        <legend>ФИО</legend>
+        <label><b>Ваше имя*</b>
+            <input placeholder="Иван" type="text" required>
+        </label>
+        <br>
+        <br>
+        <br>
+        <label><b>Ваша фамилия*</b>
+            <input placeholder="Иванов" type="text" required>
+        </label>
+        <br>
+        <br>
+        <br>
+        <label><b>Ваше отчество*</b>
+            <input placeholder="Иванович" type="text" required>
+        </label>
+    </fieldset>
+
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Как с вами связаться</legend>
+        <label>
+            <b>Ваша почта*</b>
+            <input placeholder="example@domain.com" type="email" required>
+        </label>
+        <br>
+        <br>
+        <br>
+        <label>
+            <b>Ваш телефон</b>
+            <input placeholder="+7-800-555-3535" type="tel">
+        </label>
+    </fieldset>
+
+    <br>
+    <br>
+
+
+    <fieldset>
+        <legend>Ваше сообщение*</legend>
+        <label>
+            <textarea cols="100" rows="10" required
+                placeholder="Введите здесь свой вопрос или описание проблемы, которую вы пытаетесь решить. Пожалуйста, постарайтесь быть как можно более конкретными."></textarea>
+        </label>
+    </fieldset>
+
+    <br>
+    <br>
+
+    <label>
+        <input type="checkbox">
+        Сообщайте мне о скидках и специальных предложениях по электронной почте.
+        <br>
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Вложения
+        <input type="file" name="" id="">
+    </label>
+
+    <br>
+
+    <br>
+    <p><i>*-обязательно для заполнения</i></p>
+    <br>
+    <button type="submit">Оправить</button>
+</form>
+
+</html>
